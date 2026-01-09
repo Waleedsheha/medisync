@@ -1,0 +1,76 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "flutter analyze",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"analyze"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "flutter pub get",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"pub",
+				"get"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "generate app icons",
+			"type": "shell",
+			"command": "dart",
+			"args": [
+				"run",
+				"flutter_launcher_icons"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "flutter analyze (post-icon)",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"analyze"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "flutter analyze",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"analyze"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "flutter build web --release",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"web",
+				"--release",
+				"--base-href",
+				"/",
+				"--no-wasm-dry-run"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "flutter analyze (pwa)",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"analyze"
+			],
+			"isBackground": false
+		}
+	]
+}

@@ -1,0 +1,9 @@
+-- DEPRECATED (DO NOT APPLY)
+--
+-- We decided that Clinics must remain a separate feature/pathway.
+-- Therefore, Departments/Rooms must NOT be modeled inside `public.clinics`.
+--
+-- Replacement migration:
+--   20260107_190000_create_departments_rooms_and_patient_room_id.sql
+--
+-- This file is intentionally a NO-OP.

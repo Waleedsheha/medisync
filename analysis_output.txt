@@ -1,0 +1,25 @@
+Analyzing lib...                                                
+
+  error - The function 'StateProvider' isn't defined - lib\core\providers\auth_provider.dart:39:29 - undefined_function
+  error - The function 'StateProvider' isn't defined - lib\core\providers\auth_provider.dart:42:27 - undefined_function
+  error - Classes can only extend other classes - lib\core\providers\auth_provider.dart:45:28 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\providers\auth_provider.dart:50:13 - extra_positional_arguments
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:53:5 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:58:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:63:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:73:5 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:85:9 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:89:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:94:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:100:5 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:105:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:109:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:115:5 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:117:5 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:121:5 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:126:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\providers\auth_provider.dart:131:7 - undefined_identifier
+  error - The function 'StateNotifierProvider' isn't defined - lib\core\providers\auth_provider.dart:139:5 - undefined_function
+  error - The getter 'lockKeyhole' isn't defined for the type 'LucideIcons' - lib\features\auth\presentation\signup_screen.dart:300:45 - undefined_getter
+
+21 issues found. (ran in 48.0s)

@@ -1,4 +1,4 @@
-# my_patients_flutter
+#medisync
 
 A new Flutter project.
 
